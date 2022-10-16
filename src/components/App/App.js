@@ -7,7 +7,6 @@ import Teams from '../Teams/Teams';
 import Sidebar from '../Sidebar/Sidebar';
 
 import '../../static/scss/style.scss';
-import './App.scss';
 
 
 const App = () => {

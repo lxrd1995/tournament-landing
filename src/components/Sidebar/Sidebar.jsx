@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import './Sidebar.scss';
 
@@ -31,11 +31,11 @@ const Sidebar = () => {
 	];
 
 	let mainNavEls = [
-		{ class: 'sidebar__link', icon__path: sheduler, to: '/sheduler', text: 'РАСПИСАНИЕ' },
-		{ class: 'sidebar__link', icon__path: teams, to: '/teams', text: 'КОМАНДЫ' },
-		{ class: 'sidebar__link', icon__path: live_stream, to: '/live_stream', text: 'ПРЯМАЯ ТРАНСЛЯЦИЯ' },
-		{ class: 'sidebar__link', icon__path: seasons, to: '/sessons', text: 'СЕЗОНЫ' }
-	]
+		{ id: 1, class: 'sidebar__link', icon__path: sheduler, to: '/sheduler', text: 'РАСПИСАНИЕ' },
+		{ id: 2, class: 'sidebar__link', icon__path: teams, to: '/teams', text: 'КОМАНДЫ' },
+		{ id: 3, class: 'sidebar__link', icon__path: live_stream, to: '/live_stream', text: 'ПРЯМАЯ ТРАНСЛЯЦИЯ' },
+		{ id: 4, class: 'sidebar__link', icon__path: seasons, to: '/sessons', text: 'СЕЗОНЫ' }
+	];
 
 	return (
 		<div className={sideBarActive ? 'sidebar _active' : 'sidebar'} onClick={() => setSideBarState(sideBarActive)}>
@@ -44,7 +44,7 @@ const Sidebar = () => {
 					<span></span>
 				</div>
 				<nav className='menu'>
-					<MainNav els={mainNavEls} state={sideBarActive} setState={setSideBarActive} />
+					<MainNav els={mainNavEls} state={sideBarActive} setState={setSideBarState} />
 					<SecondaryNav />
 					<Social />
 				</nav>

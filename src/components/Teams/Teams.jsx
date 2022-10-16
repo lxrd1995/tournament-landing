@@ -14,7 +14,7 @@ const Teams = () => {
 			headers: { 'Content-type': 'application/json' },
 		}
 		fetch('/api/teams/getTeams', requestOptions).then(res => res.json()).then(data => {
-			setCurrentTeams(data.teams)
+			setCurrentTeams(data.teams);
 		});
 	}, []);
 

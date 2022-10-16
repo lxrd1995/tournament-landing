@@ -5,9 +5,14 @@ import './MainNav.scss';
 
 
 const MainNav = (props) => {
-	console.log(props.setState);
+	console.log(props.state);
 	let links = props.els.map(l =>
-		<li onClick={() => props.setState(!props.state)}>
+		<li onClick={() => {
+			if (props.state) {
+				props.setState(props.state);
+			}
+
+		}}>
 			<Link className={l.class} to={l.to}>
 				<HandySvg src={l.icon__path} className='main-nav__icon' />
 				<span className='hidden'>{l.text}</span>
