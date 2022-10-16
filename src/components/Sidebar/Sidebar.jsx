@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 import './Sidebar.scss';
@@ -48,7 +48,7 @@ const Sidebar = () => {
 					<SecondaryNav />
 					<Social />
 				</nav>
-				<Link className='logo sidebar__link' to='/'><img src={logo} alt="burn" /><span className='hidden'>Burning League</span></Link>
+				<NavLink className='logo sidebar__link' to='/' end><img src={logo} alt="burn" /><span className='hidden'>Burning League</span></NavLink>
 			</div>
 		</div >
 	)

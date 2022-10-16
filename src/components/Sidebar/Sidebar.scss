@@ -11,8 +11,13 @@
 	transition: 5s;
 	z-index: 10;
 
-	a{
+	&__link {
 		color: $color_white;
+		opacity: .64;
+
+		&.active{
+			opacity: 1!important;
+		}
 	}
 
 	&._active .hidden{
