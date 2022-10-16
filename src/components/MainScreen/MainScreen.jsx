@@ -5,6 +5,7 @@ import { HandySvg } from 'handy-svg';
 
 const MainScreen = () => {
 	return (
+		<div className='root'>
 		<section className="main-screen outer">
 			<div className="container">
 				<div className="main-screen__offer offer">
@@ -20,6 +21,15 @@ const MainScreen = () => {
 				</div>
 			</div>
 		</section>
+		<section>
+			<div className='second'>
+				<div className='live__container'>
+					<h1 className='heading__title'>Прямая трансляция</h1>
+					<div className='live__stream'>Трансляция в данный момент не доступна.</div>
+				</div>
+			</div>
+		</section>
+		</div>
 	)
 }
 
