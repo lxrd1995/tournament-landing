@@ -31,6 +31,21 @@
 		background-color: rgba($color_black, .4);
 	}
 
+	&._active .main-nav,
+	&._active .secondary-nav {
+		border-bottom: 1px solid $color_white;
+		padding-bottom: 20px;
+	}
+
+	&._active .secondary-nav{
+		padding: 20px 0px;
+	}
+
+	&._active .social{
+		margin-top: 20px;
+	}
+
+
 	.sidebar__body{
 		z-index: 20;
 		background-color: $color_black;

@@ -5,7 +5,7 @@ import './MainNav.scss';
 
 
 const MainNav = (props) => {
-	let links = props.els.map(l =>
+	let links = props.links.map(l =>
 		<li onClick={() => {
 			if (props.state) {
 				props.setState(props.state);

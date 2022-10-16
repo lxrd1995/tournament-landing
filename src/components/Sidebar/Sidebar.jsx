@@ -30,12 +30,18 @@ const Sidebar = () => {
 		{ className: 'sidebar__link', icon__path: logo, to: '/', text: 'Burning League' }, ,
 	];
 
-	let mainNavEls = [
+	let mainNavLinks = [
 		{ id: 1, class: 'sidebar__link', icon__path: sheduler, to: '/sheduler', text: 'РАСПИСАНИЕ' },
 		{ id: 2, class: 'sidebar__link', icon__path: teams, to: '/teams', text: 'КОМАНДЫ' },
 		{ id: 3, class: 'sidebar__link', icon__path: live_stream, to: '/live', text: 'ПРЯМАЯ ТРАНСЛЯЦИЯ' },
 		{ id: 4, class: 'sidebar__link', icon__path: seasons, to: '/sessons', text: 'СЕЗОНЫ' }
 	];
+
+	let secondaryNavLinks = [
+		{ id: 1, class: 'sidebar__link', to: '/about_us', text: 'О нас' },
+		{ id: 2, class: 'sidebar__link', to: '/news', text: 'Новости' },
+		{ id: 3, class: 'sidebar__link', to: '/rules', text: 'Регламент' },
+	]
 
 	return (
 		<div className={sideBarActive ? 'sidebar _active' : 'sidebar'} onClick={() => setSideBarState(sideBarActive)}>
@@ -44,8 +50,8 @@ const Sidebar = () => {
 					<span></span>
 				</div>
 				<nav className='menu'>
-					<MainNav els={mainNavEls} state={sideBarActive} setState={setSideBarState} />
-					<SecondaryNav />
+					<MainNav links={mainNavLinks} state={sideBarActive} setState={setSideBarState} />
+					<SecondaryNav links={secondaryNavLinks} />
 					<Social />
 				</nav>
 				<NavLink className='logo sidebar__link' to='/' end><img src={logo} alt="burn" /><span className='hidden'>Burning League</span></NavLink>

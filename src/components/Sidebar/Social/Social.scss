@@ -1,3 +1,12 @@
+@import '../../../static/scss/variables';
+
+
 .social{
-	display: flex;
+	
+	&__list{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 25px;
+	}
 }

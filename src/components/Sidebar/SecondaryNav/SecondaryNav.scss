@@ -1,4 +1,7 @@
 .secondary-nav{
-	display: flex;
-	font-display: column;
+	&__list{
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
 }
