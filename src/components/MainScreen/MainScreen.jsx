@@ -3,7 +3,6 @@ import './MainScreen.scss'
 import hero_text from '../../static/hero_text.svg';
 import { HandySvg } from 'handy-svg';
 
-
 const MainScreen = () => {
 	return (
 		<section className="main-screen outer">
