@@ -33,7 +33,7 @@ const Sidebar = () => {
 	let mainNavEls = [
 		{ id: 1, class: 'sidebar__link', icon__path: sheduler, to: '/sheduler', text: 'РАСПИСАНИЕ' },
 		{ id: 2, class: 'sidebar__link', icon__path: teams, to: '/teams', text: 'КОМАНДЫ' },
-		{ id: 3, class: 'sidebar__link', icon__path: live_stream, to: '/live_stream', text: 'ПРЯМАЯ ТРАНСЛЯЦИЯ' },
+		{ id: 3, class: 'sidebar__link', icon__path: live_stream, to: '/live', text: 'ПРЯМАЯ ТРАНСЛЯЦИЯ' },
 		{ id: 4, class: 'sidebar__link', icon__path: seasons, to: '/sessons', text: 'СЕЗОНЫ' }
 	];
 

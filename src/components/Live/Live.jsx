@@ -11,7 +11,7 @@ const Live = () => {
 				<h2 className="section__title">
 					Прямая трансляция
 				</h2>
-
+				<center>На данный момент трансляция недоступна</center>
 			</div>
 		</section>
 	)
