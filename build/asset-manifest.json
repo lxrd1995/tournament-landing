@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6d51f77.css",
+    "main.js": "/static/js/main.0ea305fe.js",
+    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.19120fff02c21ebdc90f.jpg",
+    "static/media/PPNeueMachina-UltraboldItalic.woff2": "/static/media/PPNeueMachina-UltraboldItalic.4d21a2f275641b9ba4cb.woff2",
+    "static/media/PPNeueMachina-RegularItalic.woff2": "/static/media/PPNeueMachina-RegularItalic.aa1c4475165d0eb6e810.woff2",
+    "static/media/PPNeueMachina-LightItalic.woff2": "/static/media/PPNeueMachina-LightItalic.485f1c351678b7dcfa3e.woff2",
+    "static/media/PPNeueMachina-Ultrabold.woff2": "/static/media/PPNeueMachina-Ultrabold.03d2d1e753ce9b162ed2.woff2",
+    "static/media/PPNeueMachina-Light.woff2": "/static/media/PPNeueMachina-Light.fc5e96850dde6f52fbde.woff2",
+    "static/media/PPNeueMachina-Regular.woff2": "/static/media/PPNeueMachina-Regular.cb444b92e5dab59c0c6f.woff2",
+    "static/media/hero_text.svg": "/static/media/hero_text.8dd623c5f480a5c71a0405445964a2bb.svg",
+    "static/media/teams.svg": "/static/media/teams.c59ae98fd85235f85e0de92056903830.svg",
+    "static/media/live_stream.svg": "/static/media/live_stream.4e1111bb91b145221024c837d4d7cdd1.svg",
+    "static/media/seasons.svg": "/static/media/seasons.41a3768d5ab640a5322c2df480af0488.svg",
+    "static/media/logo.svg": "/static/media/logo.07ad76dc1b8853608166c2ab383f61e6.svg",
+    "index.html": "/index.html",
+    "static/media/sheduler.svg": "/static/media/sheduler.8379cc19435487b2f7a4fea9bf2bfccb.svg",
+    "main.f6d51f77.css.map": "/static/css/main.f6d51f77.css.map",
+    "main.0ea305fe.js.map": "/static/js/main.0ea305fe.js.map",
+    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d51f77.css",
+    "static/js/main.0ea305fe.js"
+  ]
+}
