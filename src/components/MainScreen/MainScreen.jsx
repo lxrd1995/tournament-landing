@@ -6,6 +6,7 @@ import GameSchedule from "../GameSchedule/GameSchedule";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
 import { HandySvg } from "handy-svg";
+import { Link } from "react-router-dom";
 
 const MainScreen = () => {
   return (
@@ -72,7 +73,7 @@ const MainScreen = () => {
             <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
             <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
           </div>
-          <a className="game_schedule__container__button" href="#">Все матчи</a>
+          <Link className="game_schedule__container__button" to="/sheduler">Все матчи</Link>
         </div>
       </section>
     </div>
