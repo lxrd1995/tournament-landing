@@ -1,3 +1,5 @@
+import React from "react";
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Faq = ({ faq_a, faq_p }) => {
   // const stateA = document.querySelector('.faq__a__div__a');
