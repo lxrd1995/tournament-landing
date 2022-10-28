@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-import Faq from "../Faq/Faq.jsx";
+import Faq from "../Faq/Faq";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
 import { HandySvg } from "handy-svg";
