@@ -1,5 +1,11 @@
 @import "../../static/scss/variables";
 
+.none {
+  display: none;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+
 .main-screen {
   background: url("../../static/img/hero-bg.jpg") center center/cover no-repeat;
   height: 100vh;
@@ -15,7 +21,7 @@
 
   &__offer {
     width: 100%;
-    max-width: 580px;
+    max-width: 600px;
     color: white;
     text-align: center;
 
@@ -28,12 +34,12 @@
     }
     h1 {
       margin-bottom: 0;
-      font-size: 48px;
+      font-size: 3.5rem;
       font-weight: 700;
     }
 
     h2 {
-      font-size: 14px;
+      font-size: 1rem;
       line-height: 1.5;
       color: #f5f5f5;
     }
@@ -122,9 +128,12 @@
   gap: 30px;
   width: 100%;
 }
-.faq__container {
+.faq__main__container {
   background-color: white;
   color: black;
+}
+.faq__container {
+  width: 100%;
 }
 .faq {
   display: flex;
