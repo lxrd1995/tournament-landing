@@ -1,5 +1,4 @@
 import { HandySvg } from 'handy-svg';
-import { NavLink } from 'react-router-dom';
 
 import './Social.scss';
 
@@ -12,10 +11,10 @@ const Social = () => {
 	return (
 		<div className="social hidden">
 			<ul className="social__list">
-				<li><NavLink to='#'><HandySvg className="social__link" src={telega}/></NavLink></li>
-				<li><NavLink to='#'><HandySvg className="social__link" src={YouTube}/></NavLink></li>
-				<li><NavLink to='#'><HandySvg className="social__link" src={Discord}/></NavLink></li>
-				<li><NavLink to='#'><HandySvg className="social__link" src={Vk}/></NavLink></li>
+				<li><a href='youtu.be'><HandySvg className="social__link" src={YouTube}/></a></li>
+				<li><a href='discord.com'><HandySvg className="social__link" src={Discord}/></a></li>
+				<li><a href='vk.com'><HandySvg className="social__link" src={Vk}/></a></li>
+				<li><a href='t.me'><HandySvg className="social__link" src={telega}/></a></li>
 			</ul>
 		</div>
 	)
