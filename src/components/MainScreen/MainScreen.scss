@@ -147,13 +147,13 @@
     font-weight: 800;
     font-size: 32px;
     line-height: 33px;
-	cursor: pointer;
+    cursor: pointer;
 
-	&__div {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+    &__div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
   &__p {
     padding: 30px 100px;

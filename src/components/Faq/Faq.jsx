@@ -1,4 +1,5 @@
 import React from "react";
+import "./Faq.scss";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Faq = ({ faq_a, faq_p }) => {
