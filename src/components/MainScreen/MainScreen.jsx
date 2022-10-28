@@ -31,7 +31,7 @@ const MainScreen = () => {
       <section>
         <div className="my__container">
           <div className="live__container">
-            <h1 className="heading__title">Прямая трансляция</h1>
+            <h1 className="heading__title">Прямая трансляция <span className="pulse"></span></h1>
             <div className="live__stream">
               Трансляция в данный момент не доступна.
             </div>
