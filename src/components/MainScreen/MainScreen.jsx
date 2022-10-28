@@ -32,7 +32,9 @@ const MainScreen = () => {
       <section>
         <div className="my__container">
           <div className="live__container">
-            <h1 className="heading__title">Прямая трансляция <span className="pulse"></span></h1>
+            <h1 className="heading__title">
+              Прямая трансляция <span className="pulse"></span>
+            </h1>
             <div className="live__stream">
               Трансляция в данный момент не доступна.
             </div>
@@ -64,16 +66,50 @@ const MainScreen = () => {
       </section>
       <section>
         <div className="my__container game_schedule__container">
-          <h1 className="heading__title heading__title__game-schedule">Расписание матчей</h1>
+          <h1 className="heading__title heading__title__game-schedule">
+            Расписание матчей
+          </h1>
           <div className="game__schedules">
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
-            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
+            <GameSchedule
+              nameLeft={"Burning team"}
+              date={"25.09.2022 15:00"}
+              game={"Bo3"}
+              nameRight={"Burning team"}
+            />
           </div>
-          <Link className="game_schedule__container__button" to="/sheduler">Все матчи</Link>
+          <Link className="game_schedule__container__button" to="/sheduler">
+            Все матчи
+          </Link>
         </div>
       </section>
     </div>

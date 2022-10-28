@@ -10,3 +10,14 @@
 		gap: 25px;
 	}
 }
+.social__link {
+	max-width: 32px;
+	max-height: 32px;
+	opacity: .64;
+	transition: .3s all ease-in-out;
+
+	&:hover {
+		opacity: 1;
+		transition: .3s all ease-in-out;
+	}
+}
