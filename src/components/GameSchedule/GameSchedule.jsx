@@ -1,8 +1,10 @@
-import "./GameSchedule.sass";
+import "./GameSchedule.scss";
 
 const GameSchedule = () => {
     return (
-        <div></div>
+        <div className="game-schedule__row">
+
+        </div>
     );
 };
 
