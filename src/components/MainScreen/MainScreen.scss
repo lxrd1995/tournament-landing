@@ -1,8 +1,12 @@
 @import "../../static/scss/variables";
 
+.hide {
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
 .none {
   display: none;
-  // transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
 }
 
 .main-screen {
@@ -103,10 +107,16 @@
   font-style: normal;
   font-weight: 300;
   font-size: 48px;
+
+  &__faq {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 4rem;
+  }
 }
 
 .live__stream {
-  width: calc(100vw - 20%);
+  width: 100%;
   aspect-ratio: 16/9;
   background-color: $color_gray;
   border-radius: 50px;
@@ -128,8 +138,9 @@
   width: 100%;
 }
 .faq__main__container {
-  background-color: white;
-  color: black;
+  background-color: #0A0A0A;
+  color: #F5F5F5;
+  min-height: 50vh;
 }
 .faq__container {
   width: 100%;
@@ -137,10 +148,14 @@
 .faq {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 
   &__a {
     color: white;
-    background-color: black;
+    background-color: #262626;
     width: 100%;
     padding: 50px 100px;
     font-style: normal;
@@ -163,8 +178,15 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
+    transition: .3s all ease-in-out;
+    color: black;
   }
 }
+.game_schedule__container {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
 @media (max-width: $xl) {
   .main-screen {

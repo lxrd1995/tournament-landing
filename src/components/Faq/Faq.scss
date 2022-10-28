@@ -1,6 +1,10 @@
+.hide {
+  visibility: none;
+  transition: .3s all ease-in-out;
+}
 .none {
   display: none;
-  // transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
 }
 .faq__main__container {
   background-color: white;
@@ -38,5 +42,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 160%;
+    transition: .3s all ease-in-out;
   }
 }
