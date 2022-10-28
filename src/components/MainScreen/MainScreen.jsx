@@ -32,7 +32,11 @@ const MainScreen = () => {
 		<section>
 			<div className='my__container'>
 				<h1 className="heading__title">F.A.Q.</h1>
-				<div></div>
+				<div>
+					<div className='faq faq__open'>
+						
+					</div>
+				</div>
 			</div>
 		</section>
 		</div>
