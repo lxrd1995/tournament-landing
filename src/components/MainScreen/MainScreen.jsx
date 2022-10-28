@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
@@ -39,8 +41,11 @@ const MainScreen = () => {
           <h1 className="heading__title">F.A.Q.</h1>
           <div>
             <div className="faq faq__open">
-              <a className="faq__a" href>
-                Как принять участие в турнире?
+              <a className="faq__a" href="#">
+                <div>
+					<p>Как принять участие в турнире?</p>
+					<a href="#"></a>
+				</div>
               </a>
               <p className="faq__p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
