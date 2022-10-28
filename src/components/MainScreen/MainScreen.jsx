@@ -65,8 +65,14 @@ const MainScreen = () => {
         <div className="my__container game_schedule__container">
           <h1 className="heading__title heading__title__game-schedule">Расписание матчей</h1>
           <div className="game__schedules">
-            <GameSchedule/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
+            <GameSchedule nameLeft={'Burning team'} date={'25.09.2022 15:00'} game={'Bo3'} nameRight={'Burning team'}/>
           </div>
+          <a className="game_schedule__container__button" href="#">Все матчи</a>
         </div>
       </section>
     </div>
