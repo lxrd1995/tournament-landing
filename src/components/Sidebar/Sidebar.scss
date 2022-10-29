@@ -15,9 +15,14 @@
 		color: $color_white;
 		font-weight: $fw-extrabold;
 		opacity: .64;
+		transition: .3s all ease-in-out;
 
 		&.active{
 			opacity: 1!important;
+		}
+		&:hover {
+			opacity: 1!important;
+			transition: .3s all ease-in-out;
 		}
 	}
 
