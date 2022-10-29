@@ -25,15 +25,6 @@ const Sidebar = () => {
     setSideBarActive(!state);
   };
 
-  let links = [
-    {
-      className: "sidebar__link",
-      icon__path: logo,
-      to: "/",
-      text: "Burning League",
-    }
-  ];
-
   let mainNavLinks = [
     {
       id: 1,
