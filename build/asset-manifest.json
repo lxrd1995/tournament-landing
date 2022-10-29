@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5a4c974.css",
+    "main.js": "/static/js/main.13e974ca.js",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.19120fff02c21ebdc90f.jpg",
+    "static/media/KI.png": "/static/media/KI.bfe377a3a84c760a5bf5.png",
+    "static/media/PPNeueMachina-UltraboldItalic.woff2": "/static/media/PPNeueMachina-UltraboldItalic.4d21a2f275641b9ba4cb.woff2",
+    "static/media/PPNeueMachina-RegularItalic.woff2": "/static/media/PPNeueMachina-RegularItalic.aa1c4475165d0eb6e810.woff2",
+    "static/media/PPNeueMachina-LightItalic.woff2": "/static/media/PPNeueMachina-LightItalic.485f1c351678b7dcfa3e.woff2",
+    "static/media/PPNeueMachina-Ultrabold.woff2": "/static/media/PPNeueMachina-Ultrabold.03d2d1e753ce9b162ed2.woff2",
+    "static/media/PPNeueMachina-Light.woff2": "/static/media/PPNeueMachina-Light.fc5e96850dde6f52fbde.woff2",
+    "static/media/PPNeueMachina-Regular.woff2": "/static/media/PPNeueMachina-Regular.cb444b92e5dab59c0c6f.woff2",
+    "static/media/hero_text.svg": "/static/media/hero_text.011fb4b06b9f4e9d912b9857d9a82cbc.svg",
+    "static/media/teams.svg": "/static/media/teams.ce0ba8c4d650c373f6b4a68fd7441c35.svg",
+    "static/media/live_stream.svg": "/static/media/live_stream.3ab0ee6de195778f7eb51e65f65fca34.svg",
+    "static/media/discord.svg": "/static/media/discord.e9aaa63298814fb55184e4f0e100d927.svg",
+    "static/media/seasons.svg": "/static/media/seasons.597c6281807134d1435ba2d2232e4f5f.svg",
+    "static/media/vk.svg": "/static/media/vk.24f6778fb2abc4cafbcac847a358562d.svg",
+    "static/media/SPK.svg": "/static/media/SPK.6843329dc5ea2b383da7.svg",
+    "static/media/telega.svg": "/static/media/telega.253d763c52b145322b36a0cb3c5b52b9.svg",
+    "static/media/youtube.svg": "/static/media/youtube.14dd7c6e9bb9b47ecd169be56849bd20.svg",
+    "static/media/logo.svg": "/static/media/logo.473c0b215a5ae68afa9b297b4753a3b6.svg",
+    "static/media/vs.svg": "/static/media/vs.db4bbc310e27386112c3d49c0adeabfc.svg",
+    "index.html": "/index.html",
+    "static/media/sheduler.svg": "/static/media/sheduler.96ebfa9d54dc682a1d2d685a727f5a2b.svg",
+    "static/media/decoration-circles.svg": "/static/media/decoration-circles.de993d41497f2ea1846e9c5e22157023.svg",
+    "main.b5a4c974.css.map": "/static/css/main.b5a4c974.css.map",
+    "main.13e974ca.js.map": "/static/js/main.13e974ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5a4c974.css",
+    "static/js/main.13e974ca.js"
+  ]
+}
