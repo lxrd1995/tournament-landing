@@ -31,8 +31,7 @@ const Sidebar = () => {
       icon__path: logo,
       to: "/",
       text: "Burning League",
-    },
-    ,
+    }
   ];
 
   let mainNavLinks = [

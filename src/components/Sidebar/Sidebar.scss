@@ -28,7 +28,7 @@
 
 	&._active .hidden{
 		position: relative;
-		left: 0;
+		display: block;
 	}
 
 	&._active{
@@ -61,9 +61,7 @@
 	}
 
 	.hidden{
-		position: absolute;
-		left: -1000%;
-		// transition: .3s;
+		display: none;
 	}
 
 	&__button{
