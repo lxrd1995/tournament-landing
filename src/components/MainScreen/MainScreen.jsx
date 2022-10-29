@@ -5,6 +5,7 @@ import Faq from "../Faq/Faq";
 import GameSchedule from "../GameSchedule/GameSchedule";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
+import Ki from "../../static/img/KI.png";
 import { HandySvg } from "handy-svg";
 import { Link } from "react-router-dom";
 
@@ -25,6 +26,34 @@ const MainScreen = () => {
             <div className="offer__actions">
               <button className="button button_primary">Принять участие</button>
               <button className="button button_border">Сезоны</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="my__container  about-us__parent__container">
+          <div className="about-us__container">
+            <h1 className="heading__title">О нас</h1>
+            <div>
+              <img src={Ki} alt=""></img>
+              <p>
+                Мы инициативная группа студентов первого курса, которые
+                заинтересованы в организации и проведении турниров по
+                киберспортивным дисциплинам. Мы считаем, что киберспорт в
+                настоящее время является одним из наиболее актуальных и
+                популярных видов развлечений среди молодежи, и по этой причине,
+                мы хотим провести турнир среди студентов СПК для того, чтобы они
+                смогли продемонстрировать красивую и честную игру,
+                продемонстрировать свои навыки командного взаимодействия и
+                тактического мышления, а также просто для того, чтобы студенты
+                весело провели время и смогли отдохнуть от учебного процесса.
+                Проводя такое новое для СПК мероприятие, Мы также хотим наглядно
+                продемонстрировать администрации колледжа, что подобные
+                мероприятия имеют место быть даже в образовательных учреждениях
+                и что они так же, как и остальные мероприятия проводимые на базе
+                колледжа, могут сплачивать и собирать вместе студентов с общими
+                интересами.
+              </p>
             </div>
           </div>
         </div>

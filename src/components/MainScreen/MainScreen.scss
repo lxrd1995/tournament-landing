@@ -118,6 +118,38 @@
     justify-content: flex-end;
   }
 }
+.about-us__parent__container {
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url("../../static/img/SPK.svg") center/cover no-repeat;
+  color: black;
+}
+.about-us__container {
+  width: 100%;
+  height: 100%;
+  .heading__title {
+    justify-content: flex-start;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    p {
+      line-height: 160%;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 122%;
+    }
+  }
+}
 
 .live__stream {
   width: 100%;
