@@ -31,24 +31,22 @@
         }
     }
     &__date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         h1 {
-            font-family: 'RoadRadio';
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
             text-align: center;
         }
-        p{
-            font-family: 'Venus Rising';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 38px;
-            text-align: center;
-            margin: .5rem 0;    
+        img {
+            width: 32px;
+            height: 32px;
         }
         h2 {
-            font-family: 'MADE Outer Sans';
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
