@@ -1,19 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Faq.scss";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Faq = ({ faq_a, faq_p }) => {
+  const symbolState = useRef();
+  const tabP = useRef();
   function openTab(e) {
-    const tab = e.currentTarget.parentNode,
-      symbolState = tab.querySelector(".faq__a__div__a"),
-      tabP = tab.querySelector(".faq__p");
+    tabP.current.classList.toggle("none");
 
-    tabP.classList.toggle("none");
-
-    if (symbolState.innerHTML === "+") {
-      symbolState.innerHTML = "-";
+    if (symbolState.current.innerHTML === "+") {
+      symbolState.current.innerHTML = "-";
     } else {
-      symbolState.innerHTML = "+";
+      symbolState.current.innerHTML = "+";
     }
   }
 
@@ -22,10 +20,14 @@ const Faq = ({ faq_a, faq_p }) => {
       <a className="faq__a" onClick={(e) => openTab(e)}>
         <div className="faq__a__div">
           <p>{faq_a}</p>
-          <a className="faq__a__div__a">+</a>
+          <a ref={symbolState} className="faq__a__div__a">
+            +
+          </a>
         </div>
       </a>
-      <p className="faq__p none">{faq_p}</p>
+      <p ref={tabP} className="faq__p none">
+        {faq_p}
+      </p>
     </div>
   );
 };
