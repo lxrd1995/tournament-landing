@@ -2,12 +2,12 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Faq from "../Faq/Faq";
-import GameSchedule from "../GameSchedule/GameSchedule";
+// import GameSchedule from "../GameSchedule/GameSchedule";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
-import Ki from "../../static/img/KI.png";
+// import Ki from "../../static/img/KI.png";
 import { HandySvg } from "handy-svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const MainScreen = () => {
   return (
@@ -30,7 +30,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="my__container  about-us__parent__container">
           <div className="about-us__container">
             <h1 className="heading__title">О нас</h1>
@@ -53,11 +53,11 @@ const MainScreen = () => {
                 и что они так же, как и остальные мероприятия проводимые на базе
                 колледжа, могут сплачивать и собирать вместе студентов с общими
                 интересами.
-              </p>
+              </p>  
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="my__container">
           <div className="live__container">
@@ -93,7 +93,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="my__container game_schedule__container">
           <h1 className="heading__title heading__title__game-schedule">
             Расписание матчей
@@ -140,7 +140,7 @@ const MainScreen = () => {
             Все матчи
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
