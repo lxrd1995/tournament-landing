@@ -2,11 +2,13 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Faq from "../Faq/Faq";
-// import GameSchedule from "../GameSchedule/GameSchedule";
+import TeamsСhart from "../TeamsChart/TeamsСhart";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
-// import Ki from "../../static/img/KI.png";
 import { HandySvg } from "handy-svg";
+import logo from "../../static/logo.svg";
+// import GameSchedule from "../GameSchedule/GameSchedule";
+// import Ki from "../../static/img/KI.png";
 // import { Link } from "react-router-dom";
 
 const MainScreen = () => {
@@ -66,6 +68,20 @@ const MainScreen = () => {
             </h1>
             <div className="live__stream">
               Трансляция в данный момент не доступна.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="my__container">
+          <div className="teams__container">
+            <h1 className="heading__title">Команды</h1>
+            <div className="teams__list">
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
             </div>
           </div>
         </div>
