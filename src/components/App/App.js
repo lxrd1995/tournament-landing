@@ -6,6 +6,7 @@ import MainScreen from '../MainScreen/MainScreen';
 import Teams from '../Teams/Teams';
 import Live from '../Live/Live';
 import Sheduler from '../Sheduler/Sheduler';
+import Header from '../Header/Header';
 
 import '../../static/scss/style.scss';
 
@@ -16,6 +17,7 @@ const App = () => {
 		<div className="App">
 			<BrowserRouter>
 				<main className='main'>
+					<Header/>
 					<Routes>
 						<Route path='/' element={<MainScreen />} />
 						<Route path='/teams' element={<Teams />} />

@@ -14,7 +14,7 @@ import logo from "../../static/logo.svg";
 const MainScreen = () => {
   return (
     <div className="root">
-      <section className="main-screen outer">
+      <section className="main-screen outer" id="first">
         <div className="container">
           <div className="main-screen__offer offer">
             <h1>
@@ -60,7 +60,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section> */}
-      <section>
+      <section id="live">
         <div className="my__container">
           <div className="live__container">
             <h1 className="heading__title">
@@ -72,7 +72,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="teams">
         <div className="my__container">
           <div className="teams__container">
             <h1 className="heading__title">Команды</h1>
@@ -86,7 +86,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="faq">
         <div className="my__container faq__main__container">
           <h1 className="heading__title heading__title__faq">F.A.Q.</h1>
           <div className="faq__container">
