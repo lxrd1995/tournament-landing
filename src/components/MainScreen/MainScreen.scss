@@ -10,8 +10,13 @@
 }
 
 .main-screen {
-  background: url("../../static/img/hero-bg.png") center center/cover no-repeat fixed;
-  height: 100vh;
+  background: url("../../static/img/hero-bg.png") center center/cover no-repeat
+    fixed;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .container {
     height: 100%;
@@ -101,23 +106,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
-  .teams__container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    align-items:center;
-    gap: 100px;
-
-    .teams__list {
-      display: flex;
-      gap: 100px;
-      flex-wrap: wrap;
-    }
-  }
 }
 
 .heading__title {
@@ -142,7 +130,7 @@
   width: 100vw;
   height: 100vh;
   background: url("../../static/img/SPK.svg") center/cover no-repeat,
-  linear-gradient(#D8D8D8, #D8D8D8);
+    linear-gradient(#d8d8d8, #d8d8d8);
   color: black;
 }
 .about-us__container {
@@ -166,7 +154,7 @@
       font-size: 28px;
       line-height: 160%;
       max-width: 40%;
-      color: #0A0A0A;
+      color: #0a0a0a;
     }
   }
 }
@@ -290,6 +278,29 @@
   }
 }
 
+#teams {
+  min-height: 30vh;
+
+  .my__container {
+    min-height: 30vh;
+    
+    .teams__container {
+      width: 100%;
+      min-height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+
+      .teams__list {
+        display: flex;
+        gap: 100px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
 
 @-webkit-keyframes pulse {
   0% {
