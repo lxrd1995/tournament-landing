@@ -6,7 +6,7 @@ const Faq = ({ faq_a, faq_p }) => {
   const symbolState = useRef();
   const tabP = useRef();
 
-  function openTab(e) {
+  function openTab(e) { 
     tabP.current.classList.toggle("none");
     if (symbolState.current.innerHTML === "+") {
       symbolState.current.innerHTML = "-";
@@ -25,6 +25,7 @@ const Faq = ({ faq_a, faq_p }) => {
     });
   }
 
+  
   return (
     <div className="faq">
       <a
