@@ -1,0 +1,78 @@
+@import "../../static/scss/variables";
+
+.next-match__container {
+  width: 100%;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+
+  &__row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    img {
+      height: 150px;
+    }
+
+    &-date {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+
+      Svg {
+        height: 64px;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+  padding: 0px 0px;
+
+  &_primary {
+    color: white;
+    padding: 10px 20px;
+    background-color: $color_orange;
+    border: 4px solid $color_orange;
+    transition: 0.2s all ease-in-out;
+  }
+  &_primary:hover {
+    background-color: black;
+    border: 4px solid $color_orange;
+    transition: 0.3s all ease-in-out;
+  }
+
+  &_border {
+    background-color: transparent;
+    border: 4px solid $color_white;
+    transition: 0.2s all ease-in-out;
+  }
+  &_border:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s all ease-in-out;
+  }
+}

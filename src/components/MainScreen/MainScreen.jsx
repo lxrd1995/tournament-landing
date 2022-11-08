@@ -7,6 +7,7 @@ import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
 import { HandySvg } from "handy-svg";
 import logo from "../../static/logo.svg";
+import NextMatch from "../NextMatch/NextMatch";
 // import GameSchedule from "../GameSchedule/GameSchedule";
 // import Ki from "../../static/img/KI.png";
 // import { Link } from "react-router-dom";
@@ -30,6 +31,11 @@ const MainScreen = () => {
               <button className="button button_border">Сезоны</button>
             </div> */}
           </div>
+        </div>
+      </section>
+      <section id="next-match">
+        <div className="my__container">
+          <NextMatch imgLeft={logo} imgRight={logo} data="25.09.2022 15:00" mode="Bo3"/>
         </div>
       </section>
       {/* <section>
