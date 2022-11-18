@@ -1,12 +1,21 @@
+@import '../../static/scss/variables';
+
+
 .teams{
-	.teams__inner{
+	background-color: $color_black;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+	.container{
 		display: flex;
+		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
-		row-gap: 40px;
-		column-gap: 70px;
+		gap: $base * 4px;
 	}
+
 	.team{
-		flex: 0 1 calc(20% - 70px);
+		flex: 0 1 234px;
+		max-height: 234px;
 	}
 }

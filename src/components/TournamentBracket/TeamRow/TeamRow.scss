@@ -1,0 +1,36 @@
+.team-row {
+    width: 130px;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    padding: 0 5px;
+
+    p {
+        font-weight: 700;
+    }
+
+    .team-row-primary {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap:4px;
+        img {
+            width: 20px;
+            height: 20px;
+            border-radius:50%;
+        }
+    
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+    
+        }
+    }
+    
+}

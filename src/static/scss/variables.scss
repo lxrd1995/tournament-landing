@@ -1,5 +1,7 @@
-$ff: PPNeueMachina;
+$ff-primary: PPNeueMachina;
+$ff-secondary: Montserrat;
 
+$base: 10;
 $limited: 1180px;
 
 $sm: 576.98px;
@@ -15,9 +17,7 @@ $fw-semibold: 600;
 $fw-bold: 700;
 $fw-extrabold: 800;
 
-$color_white: #fff;
-$color_black: #000;
+$color_white: #F5F5F5;
+$color_black: #0A0A0A;
 $color_orange: #FFA800;
 $color_gray: #262626;
-
-$header_max_height: 60px;

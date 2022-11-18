@@ -1,0 +1,132 @@
+@import "../../static/scss/variables";
+
+.tournament-bracket {
+  background-color: $color_black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .container {
+    display: flex;
+    padding: 0px;
+    position: relative;
+  }
+
+  .container__second-round {
+    margin-top: 55px;
+    margin-left: 130px;
+  }
+
+  .container__center-round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 0;
+    margin-left: 130px;
+  }
+
+  .container__first-oposite-round {
+    margin-top: 55px;
+    margin-left: 130px;
+  }
+
+  .container__second-oposite-round {
+    margin-top: 0px;
+    margin-left: 130px;
+  }
+
+  .battle-container {
+    position: relative;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &::after {
+      position: absolute;
+      top: 43px;
+      left: 130px;
+      content: url("../../static/icon/Sheet-merge.svg");
+    }
+  }
+
+  .duo-battle-container {
+    position: relative;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &::after {
+      position: absolute;
+      top: 43px;
+      left: 130px;
+      content: url("../../static/icon/Mega-Sheet-merge.svg");
+    }
+
+    .battleGroup {
+      margin-bottom: 130px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .oposite-duo-battle-container {
+    position: relative;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &::before {
+      position: absolute;
+      top: 43px;
+      left: -130px;
+      content: url("../../static/icon/Mega-Sheet-merge.svg");
+      transform: scaleX(-1);
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    .battleGroup {
+      margin-bottom: 130px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .oposite-battle-container {
+    position: relative;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &::before {
+      position: absolute;
+      top: 43px;
+      left: -130px;
+      content: url("../../static/icon/Sheet-merge.svg");
+      transform: scaleX(-1);
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+  .battleGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}

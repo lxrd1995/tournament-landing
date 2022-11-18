@@ -1,78 +1,63 @@
-@import "../../static/scss/variables";
+@import '../../static/scss/variables';
 
-.next-match__container {
-  width: 100%;
-  min-height: 25vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
 
-  &__row {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+.next-match{
+	background-color: $color_black;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+	&__row{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: $base * 10px;
 
-    img {
-      height: 150px;
-    }
+		.team{
+			flex: 0 1 200px;
+			max-height: 200px;
+		}
+	}
+	.button-wrapper{
+		display: flex;
+		justify-content: center;
+	}
 
-    &-date {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+	&__info{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: $base * 1px;
 
-      font-family: "Montserrat";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
+		&-date,
+		&-format{
+			font-size: 24px;
+		}
 
-      Svg {
-        height: 64px;
-        padding: 10px 0;
-      }
-    }
-  }
+		&-decoration{
+			font-size: 72px;
+			font-weight: $fw-extrabold;
+		}
+	}
 }
 
-.button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  font-size: 18px;
-  font-weight: 900;
-  color: #fff;
-  padding: 0px 0px;
+.button{
+	display: inline-block;
+	max-width: 100%;
+	font-family: $ff-primary;
+	font-weight: $fw-bold;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 14px 27px;
 
-  &_primary {
-    color: white;
-    padding: 10px 20px;
-    background-color: $color_orange;
-    border: 4px solid $color_orange;
-    transition: 0.2s all ease-in-out;
-  }
-  &_primary:hover {
-    background-color: black;
-    border: 4px solid $color_orange;
-    transition: 0.3s all ease-in-out;
-  }
+	&_border{
+		color: $color_orange;
+		border: 4px solid $color_orange;
+		transition: .5s;
 
-  &_border {
-    background-color: transparent;
-    border: 4px solid $color_white;
-    transition: 0.2s all ease-in-out;
-  }
-  &_border:hover {
-    background-color: white;
-    color: black;
-    transition: 0.3s all ease-in-out;
-  }
+		&:hover{
+			color: $color_black;
+			background-color: $color_orange;
+		}
+	}
 }
+

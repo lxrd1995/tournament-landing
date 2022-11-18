@@ -1,0 +1,69 @@
+@import "../../static/scss/variables";
+
+.tournament-table {
+  background-color: $color_black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .tabs {
+    width: 100%;
+    height: 60px;
+    display: flex;
+
+    p {
+      font-family: PPNeueMachina;
+      padding: 15px 25px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      cursor: pointer;
+    }
+
+    .active {
+      color: $color_black;
+      background-color: #d9d9d9;
+    }
+  }
+
+  .string-item {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #d9d9d9;
+
+    div {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+
+      &.row__first-stats {
+        width: 200px;
+        padding-right: 20px;
+      }
+
+      &.row__second-stats {
+        margin-right: 25px;
+        width: 150px;
+        justify-content: space-between;
+        align-items: center
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: $color_black;
+      }
+    }
+    &.first {
+      background-color: #8d8d8d;
+    }
+  }
+}
+
+.none {
+  display: none;
+}
