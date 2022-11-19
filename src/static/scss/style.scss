@@ -17,6 +17,9 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	background-color: $color_black;
 }
 /* === / WRAPPER === */
 
@@ -46,3 +49,6 @@
 	text-align: center;
 }
 /* === / COMONN ===*/
+body {
+	background-color: $color_black;
+}

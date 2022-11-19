@@ -9,6 +9,7 @@ import FAQ from '../FAQ/FAQ';
 import NextMatch from '../NextMatch/NextMatch';
 
 import '../../static/scss/style.scss';
+import Footer from '../Footer/Footer';
 
 const App = () => {
 	return (
@@ -23,8 +24,9 @@ const App = () => {
 				<TournamentTable />
 				<FAQ />
 			</div>
+			<Footer/>
 		</div>
-	);
+	)
 }
 
-export default App;
+export default App

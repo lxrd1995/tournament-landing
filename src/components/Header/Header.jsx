@@ -40,12 +40,8 @@ const Header = () => {
 		<header ref={headerRef} className="header outer">
 			<div className="container">
 				<Link className='logo' to='hero' spy={true} smooth={true} duration={1000}>
-					<HandySvg
-						src={logo}
-						width='40'
-						height='48'
-					/>
-					Burning Cup
+					<HandySvg src={logo} width='40' height='48' />
+					<p>Burning Cup</p>
 				</Link>
 				<div className="menu">
 					<div className={menuState ? 'menu__icon _active' : 'menu__icon'} onClick={() => menuToggle(menuState)}>
@@ -59,7 +55,7 @@ const Header = () => {
 					</nav>
 				</div>
 			</div>
-		</header >
+		</header>
 	);
 }
 
